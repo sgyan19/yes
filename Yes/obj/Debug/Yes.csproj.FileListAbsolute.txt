@@ -1,0 +1,8 @@
+E:\VSProjects\Projects\Yes\Yes\bin\Debug\Yes.exe.config
+E:\VSProjects\Projects\Yes\Yes\bin\Debug\Yes.exe
+E:\VSProjects\Projects\Yes\Yes\bin\Debug\Yes.pdb
+E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.csprojResolveAssemblyReference.cache
+E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.Properties.Resources.resources
+E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.csproj.GenerateResource.Cache
+E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.exe
+E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.pdb
