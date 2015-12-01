@@ -6,3 +6,11 @@ E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.Properties.Resources.resources
 E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.csproj.GenerateResource.Cache
 E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.exe
 E:\VSProjects\Projects\Yes\Yes\obj\Debug\Yes.pdb
+D:\projects\visual\yes\Yes\bin\Debug\Yes.exe.config
+D:\projects\visual\yes\Yes\obj\Debug\Yes.exe
+D:\projects\visual\yes\Yes\obj\Debug\Yes.pdb
+D:\projects\visual\yes\Yes\bin\Debug\Yes.exe
+D:\projects\visual\yes\Yes\bin\Debug\Yes.pdb
+D:\projects\visual\yes\Yes\obj\Debug\Yes.csprojResolveAssemblyReference.cache
+D:\projects\visual\yes\Yes\obj\Debug\Yes.Properties.Resources.resources
+D:\projects\visual\yes\Yes\obj\Debug\Yes.csproj.GenerateResource.Cache
