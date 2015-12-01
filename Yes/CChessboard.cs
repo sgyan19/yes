@@ -16,12 +16,26 @@ namespace Yes
         int count;                  // 位数
         int max;                    // 结果的2进制最大值
 
+
+
+        public void makeTablesAndLogout(int squareCount)
+        {
+            makeTables(squareCount);
+            if (check())
+            {
+                log();
+            }else
+            {
+                throw new Exception("make table failed");
+            }
+        }
+
         /// <summary>
         /// 获取2进制数1的个数
         /// </summary>
         /// <param name="number"></param>
         /// <returns></returns>
-        public int get1Count(int number)
+        private int get1Count(int number)
         {
             int c = 0;
             for (c = 0; number != 0; ++c)
@@ -31,13 +45,11 @@ namespace Yes
             return c;
         }
 
-
-
         /// <summary>
         /// 
         /// </summary>
         /// <param name="squareCount"></param>
-        public void makeTables(int squareCount)
+        private void makeTables(int squareCount)
         {
             friendTable = new Hashtable();
             myTable = new Hashtable();
@@ -55,7 +67,7 @@ namespace Yes
         /// 翻动动作，居于当前情况，进行一次翻动。
         /// </summary>
         /// <param name="baseNumber"></param>
-        public void filp(int baseNumber)
+        private void filp(int baseNumber)
         {
             ArrayList exsits = new ArrayList();         // 已经映射过的结果。
             Hashtable filpSonTable = new Hashtable();   // 本次翻动动作和结果的映射
@@ -135,7 +147,7 @@ namespace Yes
         /// 检查对于每一种情况的所有翻动映射，是否有重复
         /// </summary>
         /// <returns></returns>
-        public bool check()
+        private bool check()
         {
             foreach (Hashtable item in myTable.Values)
             {
@@ -155,9 +167,9 @@ namespace Yes
             return true;
         }
 
-        public void log()
+        private void log()
         {
-            FileStream firendTableStream = new FileStream("0x"+count+"firendTable.txt", FileMode.OpenOrCreate);
+            FileStream firendTableStream = new FileStream("0x"+count+"friendTable.txt", FileMode.OpenOrCreate);
             StreamWriter writer1 = new StreamWriter(firendTableStream);
             for (int i = 0; i < max; i++)
             {

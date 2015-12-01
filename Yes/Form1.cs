@@ -17,11 +17,7 @@ namespace Yes
         {
             //makeTables();
             CChessboard board = new CChessboard();
-            board.makeTables(16);
-            if (board.check())
-            {
-                board.log();
-            }
+            board.makeTablesAndLogout(8);
             InitializeComponent();
         }
     }
