@@ -181,11 +181,11 @@ namespace Yes
                 foreach (int item in ksys)
                 {
                     String action = Convert.ToString(item, 2).PadLeft(count, '0');
-                    String shi = Convert.ToString(item).PadLeft(4, '0');
+                    String shi = Convert.ToString(item).PadLeft(4, ' ');
                     writer2.WriteLine("    " + shi + "------" + action);
                     int result = i ^ item;
                     String result2x = Convert.ToString(result, 2).PadLeft(count, '0');
-                    String result10x = Convert.ToString(result).PadLeft(4, '0');
+                    String result10x = Convert.ToString(result).PadLeft(4, ' ');
 
                     writer2.WriteLine("    " + result10x + "      " + result2x + "------>" + sonTable[item]);
                 }
